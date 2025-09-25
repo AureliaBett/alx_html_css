@@ -5,6 +5,11 @@ body {
     flex-direction: column;
    
 }
+body h1, h2, h3{
+    text-align: center;
+    color: blue;
+    text-decoration: wavy underline;
+}
 main{
     flex-direction: row;
     flex:auto;
