@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+header {
+	padding: 20px 0;
+	height: 80px; 
+    margin-bottom: 50px;
+}
+header nav {
+  display: flex;                
+  justify-content: space-between;
+  align-items: center;           
+  padding: 1rem;                  
+}
+.hero{
+    background-image: url("images/Object.png");
+    background-position: center;
+    color: rgba(255, 255, 255, 1);  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Source Sans Pro ;
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header li {
+	display: inline;
+	vertical-align:middle;
+    
+}
+header li:first-child {
+	margin: 0;
+}
+header li a {
+	margin: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+header li.logo {
+	font-size: 36px;
+}
+header a {
+	text-decoration: none;
+}
+.container1{
+    text-align: center;
+    align-items: center;    
+}
+.section1{
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+.container1 h1{
+   
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100%;
+    top: 220px;
+    left: 377px;
+    margin-bottom: 30px;
+    
+}
+.section1 span{
+    top: 361px;
+    left: 704px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 36px;
+    height: 20px;
+    padding: 10px 20px 10px 20px;
+    
+}
+button{
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    opacity: 1;
+    border-radius: 22px;
+    background-color: rgba(194, 113, 255, 1);
+    color:rgba(255, 255, 255, 1) ;
+    margin: 60px auto;
+
+}
+.container1 h2{
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 261;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+.purple{
+    color: rgba(194, 113, 255, 1);
+}
+.section2{
+  display: flex;                
+  display: flex;                
+  display: flex;                
+  justify-content: center;
+  padding: 1rem;
+  gap: 6rem;
+  
+}
+
+.section2 img{
+    height: 150px;
+    width: 150px;
+}
+
+.membership{
+    margin: auto;
+    padding: 50px 10px 50px 10px;
+    background-color:rgba(7, 22, 41, 1) ;
+}
+.membership div{
+    display: inline-block;
+    width: 344px;
+    height: 100;
+    padding: 16px 8px;
+
+}
+.membership h2 {
+    color:rgba(194, 113, 255, 1) ;
+    text-align: center;
+}
+
+.membership button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loremIpsum p, h3{
+    
+    color:rgba(255, 255, 255, 1) ;
+}
