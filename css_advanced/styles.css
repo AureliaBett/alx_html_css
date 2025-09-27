@@ -144,7 +144,7 @@ button{
   gap: 6rem;
 }
 
-.section2 img{
+.section2 img {
     height: 150px;
     width: 150px;
 }
@@ -191,6 +191,68 @@ button{
     font-style: italic;
 
 }
+.container3{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container3 h2{
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: block;
+    
+}
+.container3 h3{
+    color: #000;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+.container3 p{
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.fa-solid {
+    color: rgba(194, 113, 255, 1);
+}
+.container3row{
+    display: flex;
+    flex-direction:row ;
+    gap: 5rem;
+    margin-bottom: 50px;
+}
+
+.container3 div{
+    display: flex;
+    gap: 0.8rem;
+    
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    height: 335px;
+    width: 255px;
+}
+.comment{
+    width: 30px;
+    height: 30px;
+}
 .membership{
     margin: auto;
     padding: 50px 10px 50px 10px;
@@ -216,4 +278,25 @@ button{
 .loremIpsum p, h3{
     
     color:rgba(255, 255, 255, 1) ;
+}
+
+
+.image-container {
+  position: relative; 
+  
+}
+
+.image-container img.large {
+  width: 100%;          
+  display: block;
+}
+
+.image-container img.small {
+  position: absolute;   
+  top: 30%;            
+  left: 35%;           
+  width: 64px;    
+  height: 64px;     
+  border: 3px solid white; 
+  border-radius: 10px;  /
 }
