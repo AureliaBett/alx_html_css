@@ -77,7 +77,10 @@ header a {
 }
 .container1{
     text-align: center;
-    align-items: center;    
+    align-items: center; 
+    padding-bottom: 70px;  
+    width: 1440; 
+    height: 1093;
 }
 .section1{
     line-height: 100%;
@@ -135,13 +138,10 @@ button{
     color: rgba(194, 113, 255, 1);
 }
 .section2{
-  display: flex;                
-  display: flex;                
-  display: flex;                
+  display: flex;                             
   justify-content: center;
   padding: 1rem;
   gap: 6rem;
-  
 }
 
 .section2 img{
@@ -149,6 +149,48 @@ button{
     width: 150px;
 }
 
+.container2{
+    width: 1440;
+    height: 392;
+    top: 1093px;
+    opacity: 1;
+    background-color:rgba(194, 113, 255, 1);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    color: rgba(255, 255, 255, 1);
+}
+.container2 div{
+    margin: 50px 0px 50px 0px;
+}
+.container2 blockquote{
+    padding-top: 10px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+}
+
+.container2 h3{
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+    padding-top: 5px;
+
+}
+.container2 p{
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+    font-style: italic;
+
+}
 .membership{
     margin: auto;
     padding: 50px 10px 50px 10px;
