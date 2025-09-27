@@ -257,18 +257,24 @@ button{
     margin: auto;
     padding: 50px 10px 50px 10px;
     background-color:rgba(7, 22, 41, 1) ;
+    
 }
 .membership div{
     display: inline-block;
     width: 344px;
     height: 100;
-    padding: 16px 8px;
+    margin-left: 70px;
 
 }
 .membership h2 {
-    color:rgba(194, 113, 255, 1) ;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+    line-height: 100%;
+    letter-spacing: 0px;
     text-align: center;
-}
+     color:rgba(255, 255, 255, 1) ;}
 
 .membership button{
     display: flex;
@@ -276,10 +282,26 @@ button{
     align-items: center;
 }
 .loremIpsum p, h3{
-    
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
     color:rgba(255, 255, 255, 1) ;
+   
 }
-
+.loremIpsum h3{
+    font-weight: 600;
+}
+.loremIpsum p{
+    font-weight: 400;
+}
+.loremIpsum{
+    display: flex;
+    text-align: center;
+    
+    
+}
 
 .image-container {
   position: relative; 
